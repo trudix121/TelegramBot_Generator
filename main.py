@@ -5,7 +5,7 @@ import time
 import telebot.ext
 from commands import gen
 
-API_KEY = '6254892235:AAF_mA1apC5Mmj7J1zlCzlqN45JOZgWnm6U'
+API_KEY = 'YOUR_TOKEN_HERE'
 bot = telebot.TeleBot(API_KEY)
 user_register_dict = {}
 
