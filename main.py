@@ -88,8 +88,13 @@ def admin4(message):
 
 @bot.message_handler(commands=['stock'])
 def stock(message):
+ path = './accounts/'
+ bot.reply_to(message, 'te rog asteapta 5 secunde')
+ time.sleep(5)
  import os
- files = os.listdir('./accounts')
+ fileList = os.listdir(path)
+ for file in fileList:
+    bot.reply_to(message, f'{file}, Conturi:{len(file)}')
 
 
 
