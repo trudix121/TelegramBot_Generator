@@ -4,6 +4,7 @@ import random
 import time
 import telebot.ext
 from commands import gen
+#BOTUL A FOST CREEAT 100% DE Trudix#1234   , ALL CODE HAS BEEN CREATED 100% BY Trudix#1234
 
 API_KEY = 'YOUR_TOKEN_HERE'
 bot = telebot.TeleBot(API_KEY)
